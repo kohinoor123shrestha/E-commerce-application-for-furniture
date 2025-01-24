@@ -1,5 +1,4 @@
 <?php
-// include ('./includes/connect.php');
 function getproducts(){
     global $con;
     if(!isset($_GET['category'])){
@@ -119,7 +118,7 @@ function getcategories(){
     }
 
 
-//      //get ip address 
+//  get ip address 
 function getIPAddress() {  
     //whether ip is from the shared internet  
      if(!empty($_SERVER['HTTP_CLIENT_IP'])) {  
